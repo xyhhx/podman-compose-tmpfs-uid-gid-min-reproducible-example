@@ -1,0 +1,5 @@
+services:
+  example:
+    image: docker.io/library/hello-world
+    tmpfs:
+      - /tmp:uid=1000,gid=1000
